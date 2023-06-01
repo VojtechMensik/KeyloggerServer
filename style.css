@@ -1,0 +1,100 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+.dark {
+    background-color: rgb(49, 49, 49);
+    color: white;
+    font-size: large;
+}
+
+
+.vertical {
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+
+.vertical > div {
+    min-width: 10px;
+}
+
+
+.horizontal {
+    display: flex;
+    flex-direction: row;
+    padding-left: 10px;
+}
+
+
+.horizontal > div {
+    min-width: 150px;
+}
+
+
+.button {
+    background-color: rgb(82, 82, 82);
+    padding: 10px;
+}
+.pressed {
+    background-color: rgb(202, 62, 71);
+}
+
+
+@keyframes buttonhover {
+    from {
+        background-color: rgb(82, 82, 82);
+    }
+    to {
+        background-color: rgb(126, 125, 125)
+    }
+}
+
+.button:hover {
+    animation-name: buttonhover;
+    animation-duration: 1s;
+    background-color: rgb(126, 125, 125)
+}
+.pressed:hover{
+    animation-name: none;
+    background-color: rgb(202, 62, 71);
+}
+
+
+th, td {
+    font-size: 20px;
+    min-width: 50px;
+    padding: 10px;
+    text-align: left;
+    text-decoration: none;
+    border-bottom: none;
+}
+
+
+table {
+    border: 0;
+    border-color: aqua;
+}
+.underline2{
+    border-width: 0px;
+    border-bottom: 1px;
+    border-color: lightgray;
+    border-style:solid;
+}
+.underline{
+    border-width: 0px;
+    border-top: 1px;
+    border-color: lightgray;
+    border-style:solid;
+}
+h4{
+    margin: 0px;
+   
+}
+a{
+    color: white;
+    text-decoration: none;
+}
