@@ -1,5 +1,5 @@
 # Keylogger
-This software is meant to demonstrate how a keylogger could function. It captures the keystrokes of the user and uploads them to a remote server. This repository contains the keylogger itself. The server can be found at: https://github.com/VojtechMensik/KeyloggerServer
+This software is meant to demonstrate how a keylogger could function. It captures the keystrokes of the user and uploads them to a remote server. This repository contains the server. The keylogger can be found at: https://github.com/VojtechMensik/keylogger
 # How to use
 In order to enable the program to run you will need to create a file **enable.txt** in the same directory as the .exe file. If you move the file elsewere, the program will close itself.
 The captured keystrokes are stored  in **%appdata%\SystemData** directory. To setup the server, you can use xampp to host the server locally. Import the database.sql file to create a database for storing the captured keystokes. 
